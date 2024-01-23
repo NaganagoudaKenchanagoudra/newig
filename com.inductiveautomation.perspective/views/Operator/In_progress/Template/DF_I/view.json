@@ -1,0 +1,286 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 71,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "130px"
+                },
+                "props": {
+                  "text": "Die Change Start",
+                  "textStyle": {
+                    "classes": "Operator/entry_label"
+                  }
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TextField"
+                },
+                "position": {
+                  "basis": "179px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_field",
+                    "marginBottom": 15,
+                    "marginTop": 15
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "261px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "130px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_label"
+                  },
+                  "text": "Die change End"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TextField"
+                },
+                "position": {
+                  "basis": "179px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_field",
+                    "marginBottom": 15,
+                    "marginTop": 15
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_0"
+            },
+            "position": {
+              "basis": "261px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "113px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_label"
+                  },
+                  "text": "Die Fail"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "basis": "39px"
+                },
+                "props": {
+                  "text": "yes"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Icon"
+                },
+                "position": {
+                  "basis": "20px"
+                },
+                "props": {
+                  "path": "material/panorama_fish_eye"
+                },
+                "type": "ia.display.icon"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "basis": "36px"
+                },
+                "props": {
+                  "style": {
+                    "marginLeft": 10
+                  },
+                  "text": "no"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Icon_0"
+                },
+                "position": {
+                  "basis": "20px"
+                },
+                "props": {
+                  "path": "material/panorama_fish_eye"
+                },
+                "type": "ia.display.icon"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_1"
+            },
+            "position": {
+              "basis": "170.3px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "130px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_label"
+                  },
+                  "text": "Die Failure Reason*"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TextField"
+                },
+                "position": {
+                  "basis": "179px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_field",
+                    "marginBottom": 15,
+                    "marginTop": 15
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_2"
+            },
+            "position": {
+              "basis": "261px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "130px"
+                },
+                "props": {
+                  "text": "Die fail Responsible Department*"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "TextField"
+                },
+                "position": {
+                  "basis": "179px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Operator/entry_field",
+                    "marginBottom": 15,
+                    "marginTop": 15
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_3"
+            },
+            "position": {
+              "basis": "261px"
+            },
+            "props": {
+              "justify": "space-evenly",
+              "style": {
+                "overflow": "hidden"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_0"
+        },
+        "position": {
+          "basis": "67px"
+        },
+        "props": {
+          "justify": "space-evenly"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Operator/flex_rep"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

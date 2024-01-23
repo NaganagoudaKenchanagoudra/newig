@@ -1,0 +1,48 @@
+{
+  "custom": {
+    "pro": 0
+  },
+  "params": {},
+  "propConfig": {
+    "custom.pro": {
+      "persistent": true
+    }
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Table"
+        },
+        "position": {
+          "basis": "400px"
+        },
+        "propConfig": {
+          "props.data": {
+            "binding": {
+              "config": {
+                "path": "view.custom.pro"
+              },
+              "transforms": [
+                {
+                  "code": "\tquery \u003d \u0027\u0027\u0027Select EntityAttributeKey from EntityAttributeDefination\u0027\u0027\u0027\n\tdatabase \u003d \"JindalDB\"\n\tdata \u003d system.db.runPrepQuery(query,[],database)\n\treturn data\n\t",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.display.table"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

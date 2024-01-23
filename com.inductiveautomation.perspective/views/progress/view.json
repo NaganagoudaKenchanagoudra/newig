@@ -1,0 +1,247 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 290,
+      "width": 1352
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "304px"
+                },
+                "props": {
+                  "style": {
+                    "fontFamily": "Roboto",
+                    "fontSize": 24,
+                    "fontWeight": "bolder"
+                  },
+                  "text": "Billet Inforamtion"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "28px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "86px"
+                    },
+                    "props": {
+                      "style": {
+                        "backgroundColor": "#3F5462",
+                        "color": "#FFFFFF",
+                        "fontFamily": "Roboto",
+                        "fontSize": 18,
+                        "fontWeight": "bold"
+                      },
+                      "text": "Batch 1"
+                    },
+                    "type": "ia.display.label"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "30px"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "Batch No"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_0"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "Billet Length"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_0"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_1"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "No.of Billets"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_1"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_2"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "Extrusion Length"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_2"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_3"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "Log End Scrap(Kg)"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_3"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_4"
+                    },
+                    "position": {
+                      "basis": "110px"
+                    },
+                    "props": {
+                      "text": "But Weight(Kg)"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_4"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "type": "ia.input.text-field"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer_0"
+                },
+                "position": {
+                  "basis": "56px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_0"
+            },
+            "position": {
+              "basis": "50px"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "290px"
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

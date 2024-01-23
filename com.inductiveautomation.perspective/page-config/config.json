@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "table"
+    },
+    "/ex3": {
+      "title": "",
+      "viewPath": "ex3"
+    },
+    "/ex_1": {
+      "title": "",
+      "viewPath": "ex_1"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

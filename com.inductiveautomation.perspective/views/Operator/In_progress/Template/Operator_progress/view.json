@@ -1,0 +1,1402 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 1167,
+      "width": 1398
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "304px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Operator/header"
+                      },
+                      "text": "Billet Information"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "events": {
+                      "dom": {
+                        "onClick": {
+                          "config": {
+                            "draggable": false,
+                            "id": "mS6kCjDr",
+                            "modal": true,
+                            "overlayDismiss": true,
+                            "position": {
+                              "height": 400,
+                              "width": 1000
+                            },
+                            "positionType": "exact",
+                            "resizable": false,
+                            "showCloseIcon": true,
+                            "type": "open",
+                            "viewPath": "Operator/In_progress/Template/Billet information",
+                            "viewportBound": false
+                          },
+                          "scope": "C",
+                          "type": "popup"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Icon_0"
+                    },
+                    "position": {
+                      "basis": "30px"
+                    },
+                    "props": {
+                      "path": "material/add_circle",
+                      "style": {
+                        "classes": "Operator/icon"
+                      }
+                    },
+                    "type": "ia.display.icon"
+                  }
+                ],
+                "meta": {
+                  "name": "Header"
+                },
+                "position": {
+                  "basis": "30px"
+                },
+                "props": {
+                  "justify": "space-between",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "FlexRepeater"
+                },
+                "position": {
+                  "basis": "100px",
+                  "shrink": 0
+                },
+                "props": {
+                  "instances": [
+                    {
+                      "instancePosition": {},
+                      "instanceStyle": {
+                        "classes": ""
+                      }
+                    }
+                  ],
+                  "path": "Operator/In_progress/Template/B_I",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.display.flex-repeater"
+              }
+            ],
+            "meta": {
+              "name": "Billet Information"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column",
+              "justify": "space-between"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "304px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/header"
+                          },
+                          "text": "Process Parameters"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "events": {
+                          "dom": {
+                            "onClick": {
+                              "config": {
+                                "draggable": false,
+                                "id": "HN0-oQMi",
+                                "modal": true,
+                                "overlayDismiss": false,
+                                "position": {
+                                  "height": 400,
+                                  "width": 1000
+                                },
+                                "positionType": "exact",
+                                "resizable": true,
+                                "showCloseIcon": true,
+                                "type": "open",
+                                "viewPath": "Operator/In_progress/Template/Process Parameters",
+                                "viewportBound": false
+                              },
+                              "scope": "C",
+                              "type": "popup"
+                            }
+                          }
+                        },
+                        "meta": {
+                          "name": "Icon_0"
+                        },
+                        "position": {
+                          "basis": "30px"
+                        },
+                        "props": {
+                          "path": "material/add_circle",
+                          "style": {
+                            "classes": "Operator/icon"
+                          }
+                        },
+                        "type": "ia.display.icon"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Header"
+                    },
+                    "position": {
+                      "basis": "30px"
+                    },
+                    "props": {
+                      "justify": "space-between",
+                      "style": {
+                        "overflow": "hidden"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "meta": {
+                      "name": "FlexRepeater"
+                    },
+                    "position": {
+                      "basis": "250px"
+                    },
+                    "props": {
+                      "instances": [
+                        {
+                          "instancePosition": {},
+                          "instanceStyle": {
+                            "classes": ""
+                          }
+                        }
+                      ],
+                      "path": "Operator/In_progress/Template/P_R",
+                      "style": {
+                        "overflow": "hidden"
+                      }
+                    },
+                    "type": "ia.display.flex-repeater"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "320px"
+                },
+                "props": {
+                  "direction": "column",
+                  "justify": "space-around"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Process Parameters"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column",
+              "path": ""
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "304px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Operator/header"
+                      },
+                      "text": "Die Fail Info."
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "events": {
+                      "dom": {
+                        "onClick": {
+                          "config": {
+                            "draggable": false,
+                            "id": "HN0-oQMi",
+                            "modal": true,
+                            "overlayDismiss": true,
+                            "position": {
+                              "height": 400,
+                              "width": 1000
+                            },
+                            "positionType": "exact",
+                            "resizable": false,
+                            "showCloseIcon": true,
+                            "type": "open",
+                            "viewPath": "Operator/In_progress/Template/Die Fail Information",
+                            "viewportBound": false
+                          },
+                          "scope": "C",
+                          "type": "popup"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Icon_0"
+                    },
+                    "position": {
+                      "basis": "30px"
+                    },
+                    "props": {
+                      "path": "material/add_circle",
+                      "style": {
+                        "classes": "Operator/icon"
+                      }
+                    },
+                    "type": "ia.display.icon"
+                  }
+                ],
+                "meta": {
+                  "name": "Header"
+                },
+                "position": {
+                  "basis": "30px"
+                },
+                "props": {
+                  "justify": "space-between",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "FlexRepeater"
+                },
+                "position": {
+                  "basis": "100px"
+                },
+                "props": {
+                  "instances": [
+                    {
+                      "instancePosition": {},
+                      "instanceStyle": {
+                        "classes": ""
+                      }
+                    }
+                  ],
+                  "path": "Operator/In_progress/Template/DF_I",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.display.flex-repeater"
+              }
+            ],
+            "meta": {
+              "name": "Die Fail Info"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "304px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Operator/header"
+                      },
+                      "text": "Breakdown"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "events": {
+                      "dom": {
+                        "onClick": {
+                          "config": {
+                            "draggable": false,
+                            "id": "HN0-oQMi",
+                            "modal": true,
+                            "overlayDismiss": false,
+                            "position": {
+                              "height": 400,
+                              "width": 1000
+                            },
+                            "positionType": "exact",
+                            "resizable": true,
+                            "showCloseIcon": true,
+                            "type": "open",
+                            "viewPath": "Operator/In_progress/Template/Breakdown",
+                            "viewportBound": false
+                          },
+                          "scope": "C",
+                          "type": "popup"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Icon_0"
+                    },
+                    "position": {
+                      "basis": "30px"
+                    },
+                    "props": {
+                      "path": "material/add_circle",
+                      "style": {
+                        "classes": "Operator/icon"
+                      }
+                    },
+                    "type": "ia.display.icon"
+                  }
+                ],
+                "meta": {
+                  "name": "Header"
+                },
+                "position": {
+                  "basis": "30px"
+                },
+                "props": {
+                  "justify": "space-between",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "FlexRepeater"
+                },
+                "position": {
+                  "basis": "100px"
+                },
+                "props": {
+                  "elementPosition": {
+                    "shrink": 0
+                  },
+                  "instances": [
+                    {
+                      "instancePosition": {},
+                      "instanceStyle": {
+                        "classes": ""
+                      }
+                    }
+                  ],
+                  "justify": "space-between",
+                  "path": "Operator/In_progress/Template/B_K",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.display.flex-repeater"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "130px"
+                        },
+                        "props": {
+                          "text": "Operator Name*",
+                          "textStyle": {
+                            "classes": "Operator/entry_label"
+                          }
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field",
+                            "marginBottom": 17,
+                            "marginTop": 17
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer"
+                    },
+                    "position": {
+                      "basis": "261px"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "130px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_label"
+                          },
+                          "text": "Production Supervisor*"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field",
+                            "marginBottom": 17,
+                            "marginTop": 17
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_0"
+                    },
+                    "position": {
+                      "basis": "261px"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "130px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_label"
+                          },
+                          "text": "QA Supervisor*"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field",
+                            "marginBottom": 17,
+                            "marginTop": 17
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_1"
+                    },
+                    "position": {
+                      "basis": "261px"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "130px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_label"
+                          },
+                          "text": "Operator Remarks*"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field",
+                            "marginBottom": 17,
+                            "marginTop": 17
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_2"
+                    },
+                    "position": {
+                      "basis": "261px"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "130px"
+                        },
+                        "props": {
+                          "text": "Overall Breakdown Duration\n"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field",
+                            "marginBottom": 17,
+                            "marginTop": 17
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_3"
+                    },
+                    "position": {
+                      "basis": "261px"
+                    },
+                    "props": {
+                      "justify": "space-evenly",
+                      "style": {
+                        "overflow": "hidden"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "Breakdown_last"
+                },
+                "position": {
+                  "basis": "62px"
+                },
+                "props": {
+                  "justify": "space-around",
+                  "style": {
+                    "classes": "Operator/breakflex"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Breakdown"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column",
+              "justify": "space-around"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "304px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Operator/header"
+                      },
+                      "text": "Double Billet Information"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "events": {
+                      "dom": {
+                        "onClick": {
+                          "config": {
+                            "draggable": false,
+                            "id": "HN0-oQMi",
+                            "modal": true,
+                            "overlayDismiss": false,
+                            "position": {
+                              "height": 400,
+                              "width": 1000
+                            },
+                            "positionType": "exact",
+                            "resizable": true,
+                            "showCloseIcon": true,
+                            "type": "open",
+                            "viewPath": "Operator/In_progress/Template/Double Billet Information",
+                            "viewportBound": false
+                          },
+                          "scope": "C",
+                          "type": "popup"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Icon_0"
+                    },
+                    "position": {
+                      "basis": "30px"
+                    },
+                    "props": {
+                      "path": "material/add_circle",
+                      "style": {
+                        "classes": "Operator/icon"
+                      }
+                    },
+                    "type": "ia.display.icon"
+                  }
+                ],
+                "meta": {
+                  "name": "Header"
+                },
+                "position": {
+                  "basis": "30px"
+                },
+                "props": {
+                  "justify": "space-between",
+                  "style": {
+                    "overflow": "hidden"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "114px"
+                            },
+                            "props": {
+                              "text": "Double Billet"
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "Icon"
+                            },
+                            "position": {
+                              "basis": "30px"
+                            },
+                            "props": {
+                              "path": "material/check_box_outline_blank"
+                            },
+                            "type": "ia.display.icon"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "50px"
+                        },
+                        "props": {
+                          "style": {
+                            "overflow": "hidden"
+                          }
+                        },
+                        "type": "ia.container.flex"
+                      },
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "Billet No.*",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer_0"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      },
+                      {
+                        "meta": {
+                          "name": "FlexContainer_1"
+                        },
+                        "position": {
+                          "basis": "70px"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "direction": "column"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "Batch1",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      },
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "Batch 2",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer_0"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_0"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "direction": "column"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "1st Billet Length",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      },
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "2nd Billet Length",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer_0"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_1"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "direction": "column"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "1st Billet Weight(Kg)",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      },
+                      {
+                        "children": [
+                          {
+                            "meta": {
+                              "name": "Label"
+                            },
+                            "position": {
+                              "basis": "130px"
+                            },
+                            "props": {
+                              "text": "2nd Billet Weight(Kg)",
+                              "textStyle": {
+                                "classes": "Operator/entry_label"
+                              }
+                            },
+                            "type": "ia.display.label"
+                          },
+                          {
+                            "meta": {
+                              "name": "TextField"
+                            },
+                            "position": {
+                              "basis": "179px"
+                            },
+                            "props": {
+                              "style": {
+                                "classes": "Operator/entry_field"
+                              }
+                            },
+                            "type": "ia.input.text-field"
+                          }
+                        ],
+                        "meta": {
+                          "name": "FlexContainer_0"
+                        },
+                        "position": {
+                          "basis": "120px"
+                        },
+                        "type": "ia.container.flex"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_2"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "direction": "column"
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "105px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "basis": "220px"
+                        },
+                        "props": {
+                          "text": "Double Billet-Push Quantity",
+                          "textStyle": {
+                            "classes": "Operator/entry_label"
+                          }
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "meta": {
+                          "name": "TextField"
+                        },
+                        "position": {
+                          "basis": "179px"
+                        },
+                        "props": {
+                          "style": {
+                            "classes": "Operator/entry_field"
+                          }
+                        },
+                        "type": "ia.input.text-field"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer_0"
+                    },
+                    "position": {
+                      "basis": "472px"
+                    },
+                    "props": {
+                      "style": {
+                        "marginLeft": 10
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer_0"
+                },
+                "position": {
+                  "basis": "52px"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Double billet info"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Button"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "props": {
+                      "image": {
+                        "style": {
+                          "classes": "Toolshop/button"
+                        }
+                      },
+                      "style": {
+                        "classes": "Toolshop/button"
+                      },
+                      "text": "Hold"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Button_0"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/button"
+                      },
+                      "text": "Clear"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Button_1"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "props": {
+                      "image": {
+                        "style": {
+                          "classes": "Toolshop/button"
+                        }
+                      },
+                      "style": {
+                        "classes": "Toolshop/button"
+                      },
+                      "text": "Update"
+                    },
+                    "type": "ia.input.button"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "500px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "FlexContainer_1"
+                },
+                "position": {
+                  "basis": "376px"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Button"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "props": {
+                      "image": {
+                        "style": {
+                          "classes": "Toolshop/button"
+                        }
+                      },
+                      "style": {
+                        "classes": "Toolshop/button"
+                      },
+                      "text": "Move to Bundling "
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Button_0"
+                    },
+                    "position": {
+                      "basis": "120px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/button"
+                      },
+                      "text": "Reassign"
+                    },
+                    "type": "ia.input.button"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer_0"
+                },
+                "position": {
+                  "basis": "500px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Buttons"
+            },
+            "position": {
+              "basis": "50px",
+              "shrink": 0
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "custom": {
+          "code": "abc"
+        },
+        "meta": {
+          "name": "OP"
+        },
+        "position": {
+          "basis": "1167px"
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

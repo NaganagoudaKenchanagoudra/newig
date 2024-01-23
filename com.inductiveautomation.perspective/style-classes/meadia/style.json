@@ -1,0 +1,17 @@
+{
+  "base": {
+    "style": {}
+  },
+  "variants": [
+    {
+      "media": {
+        "feature": "maxWidth",
+        "value": "400px"
+      },
+      "style": {
+        "color": "#270C0C",
+        "fontSize": "15px"
+      }
+    }
+  ]
+}

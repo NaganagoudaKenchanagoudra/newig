@@ -1,0 +1,34 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 178,
+          "x": 19,
+          "y": 91
+        },
+        "props": {
+          "style": {
+            "classes": "meadia"
+          },
+          "text": "Wakeflo",
+          "textStyle": {
+            "fontSize": 30
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

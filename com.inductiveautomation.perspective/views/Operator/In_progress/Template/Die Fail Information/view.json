@@ -1,0 +1,357 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 300,
+      "width": 1000
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "304px"
+            },
+            "props": {
+              "style": {
+                "classes": "Operator/header"
+              },
+              "text": "Breakdown"
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "Header"
+        },
+        "position": {
+          "basis": "28px"
+        },
+        "props": {
+          "justify": "space-between",
+          "style": {
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "53px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_label"
+                  },
+                  "text": "Die Change Start"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "basis": "53px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_label"
+                  },
+                  "text": "Die Change End\n"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_1"
+                },
+                "position": {
+                  "basis": "53px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_label"
+                  },
+                  "text": "Die Fail"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_2"
+                },
+                "position": {
+                  "basis": "53px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_label"
+                  },
+                  "text": "Die Failure Reason"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_3"
+                },
+                "position": {
+                  "basis": "53px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_label"
+                  },
+                  "text": "Die fail Responsible Department"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "label_field"
+            },
+            "position": {
+              "basis": "502px"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "TextField"
+                },
+                "position": {
+                  "basis": "60px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_field"
+                  }
+                },
+                "type": "ia.input.text-field"
+              },
+              {
+                "meta": {
+                  "name": "TextField_0"
+                },
+                "position": {
+                  "basis": "60px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_field"
+                  }
+                },
+                "type": "ia.input.text-field"
+              },
+              {
+                "meta": {
+                  "name": "TextField_1"
+                },
+                "position": {
+                  "basis": "60px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_field"
+                  }
+                },
+                "type": "ia.input.text-field"
+              },
+              {
+                "meta": {
+                  "name": "TextField_2"
+                },
+                "position": {
+                  "basis": "60px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_field"
+                  }
+                },
+                "type": "ia.input.text-field"
+              },
+              {
+                "meta": {
+                  "name": "TextField_3"
+                },
+                "position": {
+                  "basis": "60px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Popup/entry_field"
+                  }
+                },
+                "type": "ia.input.text-field"
+              }
+            ],
+            "meta": {
+              "name": "text_field"
+            },
+            "position": {
+              "basis": "502px"
+            },
+            "props": {
+              "direction": "column",
+              "justify": "space-around"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "body"
+        },
+        "position": {
+          "basis": "200px"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Button"
+                },
+                "position": {
+                  "basis": "120px"
+                },
+                "props": {
+                  "image": {
+                    "style": {
+                      "classes": "Toolshop/button"
+                    }
+                  },
+                  "style": {
+                    "classes": "Toolshop/button"
+                  },
+                  "text": "add"
+                },
+                "type": "ia.input.button"
+              },
+              {
+                "meta": {
+                  "name": "Button_0"
+                },
+                "position": {
+                  "basis": "120px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Toolshop/button"
+                  },
+                  "text": "save"
+                },
+                "type": "ia.input.button"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "500px"
+            },
+            "props": {
+              "justify": "space-evenly"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "meta": {
+              "name": "FlexContainer_1"
+            },
+            "position": {
+              "basis": "376px"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Button"
+                },
+                "position": {
+                  "basis": "120px"
+                },
+                "props": {
+                  "image": {
+                    "style": {
+                      "classes": "Toolshop/button"
+                    }
+                  },
+                  "style": {
+                    "classes": "Toolshop/button"
+                  },
+                  "text": "update"
+                },
+                "type": "ia.input.button"
+              },
+              {
+                "meta": {
+                  "name": "Button_0"
+                },
+                "position": {
+                  "basis": "120px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Toolshop/button"
+                  },
+                  "text": "delete"
+                },
+                "type": "ia.input.button"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_0"
+            },
+            "position": {
+              "basis": "500px"
+            },
+            "props": {
+              "justify": "space-evenly"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Buttons"
+        },
+        "position": {
+          "basis": "45px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "justify": "space-between"
+    },
+    "type": "ia.container.flex"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "base": {
+    "style": {}
+  },
+  "variants": [
+    {
+      "media": {
+        "feature": "minWidth",
+        "value": "500px"
+      },
+      "style": {
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px",
+        "paddingTop": "10px"
+      }
+    }
+  ]
+}

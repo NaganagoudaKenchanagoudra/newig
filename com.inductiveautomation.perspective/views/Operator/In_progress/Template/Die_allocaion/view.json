@@ -1,0 +1,508 @@
+{
+  "custom": {},
+  "params": {
+    "Die_allocation": 1
+  },
+  "propConfig": {
+    "params.Die_allocation": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 222,
+      "width": 1366
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "224px"
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "path": "view.params.Die_allocation"
+                      },
+                      "transforms": [
+                        {
+                          "code": "\ta\u003d\"st Die Allocation\" \n\tb\u003d\"nd Die Allocation\" \n\tc\u003d\"rd Die Allocation\" \n\tif value\u003d\u003d1:\n\t\treturn str(value)+a\n\telif value\u003d\u003d2:\n\t\treturn str(value)+b\n\telse:\n\t\treturn str(value)+c",
+                          "type": "script"
+                        }
+                      ],
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "style": {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Roboto",
+                    "fontSize": 24,
+                    "marginLeft": 10
+                  }
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": "51px"
+            },
+            "props": {
+              "style": {
+                "backgroundColor": "#3F5462",
+                "classes": "#3F5462"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Die No"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_0"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Run Date"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_0"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_2"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Die Trail"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_1"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_1"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Die with Aluminum"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_2"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "55px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Container Diameter"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_0"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "No of Cavities"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_0"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_2"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Standard Die Life"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_1"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_1"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Dummy Block No"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_2"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer_0"
+                },
+                "position": {
+                  "basis": "55px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Start Time"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_0"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "End Time"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_0"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_2"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Process time"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "TextField_1"
+                    },
+                    "position": {
+                      "basis": "209px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_field"
+                      }
+                    },
+                    "type": "ia.input.text-field"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label_1"
+                    },
+                    "position": {
+                      "basis": "210px"
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "Toolshop/Entry_label"
+                      },
+                      "text": "Previous Day Die continue "
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "Icon"
+                    },
+                    "position": {
+                      "basis": "100px"
+                    },
+                    "props": {
+                      "path": "material/keyboard_arrow_down"
+                    },
+                    "type": "ia.display.icon"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer_2"
+                },
+                "position": {
+                  "basis": "55px"
+                },
+                "props": {
+                  "justify": "space-evenly"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_0"
+            },
+            "position": {
+              "basis": "200px"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "268px"
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "borderBottomLeftRadius": "4px",
+            "borderBottomRightRadius": "4px",
+            "borderColor": "#C6C6C6",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": "4px",
+            "borderTopRightRadius": "4px",
+            "borderWidth": "1px"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "marginBottom": 5,
+        "marginTop": 5
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}
